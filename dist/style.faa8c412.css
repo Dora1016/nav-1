@@ -32,7 +32,10 @@ img {
 /*style */
 body {
   /*虽然body的区域只有内容区域，边框会显示，但是如果给body加背景色，浏览器会智能的加到整个网页*/
-  background: #eee;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background: url(sky.17e898b1.png) no-repeat center;
 }
 .globalHeader {
   margin: 20px; /*居中*/
